@@ -1,0 +1,3 @@
+__pycache__/
+*.pyc
+CRNN_VGG16_BN/checkpoints/

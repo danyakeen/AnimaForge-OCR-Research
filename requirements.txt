@@ -1,0 +1,9 @@
+torch>=2.0.0,<3.0.0
+torchvision>=0.15.0,<0.20.0
+numpy>=1.20.0
+Pillow>=9.0
+# optional but recommended:
+#   rapidfuzz  — fast CER/WER + wide-crop merge (pure-Python fallback exists)
+#   tqdm       — training progress bars
+rapidfuzz
+tqdm
