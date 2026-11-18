@@ -1,3 +1,33 @@
+# Python
 __pycache__/
-*.pyc
-CRNN_VGG16_BN/checkpoints/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Данные — не храним в git (кроме README и сплитов)
+data/*
+!data/README.md
+!data/splits/
+
+# Веса и чекпоинты — не храним в git
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+**/weights/
+**/checkpoints/
+**/experiments/**/ckpt/
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Окружение и IDE
+.env
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
