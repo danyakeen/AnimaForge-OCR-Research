@@ -12,10 +12,10 @@
 #   <data-dir>/test.*                same for lines/test
 #
 # Usage:
-#   python -m CRNN_VGG16_BN.train --data-dir b-mod_lines
-#   python -m CRNN_VGG16_BN.train --data-dir b-mod_lines --device cuda --amp --epochs 10
-#   python -m CRNN_VGG16_BN.train --data-dir b-mod_lines --train-splits train.easy --limit-train 1000
-#   python -m CRNN_VGG16_BN.train --train-dir path/to/subfolder --train-splits path/to/answers.txt \
+#   python -m OCR.crnn_vgg16_bn.train --data-dir b-mod_lines
+#   python -m OCR.crnn_vgg16_bn.train --data-dir b-mod_lines --device cuda --amp --epochs 10
+#   python -m OCR.crnn_vgg16_bn.train --data-dir b-mod_lines --train-splits train.easy --limit-train 1000
+#   python -m OCR.crnn_vgg16_bn.train --train-dir path/to/subfolder --train-splits path/to/answers.txt \
 #       --data-dir b-mod_lines
 #
 # Checkpoints are saved in date-time format:

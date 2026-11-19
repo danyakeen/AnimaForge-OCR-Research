@@ -1,0 +1,6 @@
+# Единые окончания строк в репозитории (в git — LF, на Windows git сам отдаёт CRLF)
+* text=auto
+*.pt binary
+*.pth binary
+*.jpg binary
+*.png binary

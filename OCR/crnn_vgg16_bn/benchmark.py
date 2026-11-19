@@ -5,7 +5,7 @@
 # predictions and the ground-truth transcripts.
 #
 # Usage:
-#   python -m CRNN_VGG16_BN.benchmark --images <dir> --answers <file> [options]
+#   python -m OCR.crnn_vgg16_bn.benchmark --images <dir> --answers <file> [options]
 #
 # Arguments:
 #   --images    path to the directory containing the crop images
@@ -16,7 +16,7 @@
 #
 # Example (200-sample smoke run):
 #   head -200 b-mod_lines/train.easy > /tmp/sample.tsv
-#   python -m CRNN_VGG16_BN.benchmark --images b-mod_lines/lines --answers /tmp/sample.tsv
+#   python -m OCR.crnn_vgg16_bn.benchmark --images b-mod_lines/lines --answers /tmp/sample.tsv
 #
 # The images directory may be `b-mod_lines/lines` (filenames are resolved inside its
 # `train/` and `test/` subdirectories) or one of those subdirectories directly.

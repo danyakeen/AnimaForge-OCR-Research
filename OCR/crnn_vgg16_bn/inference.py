@@ -2,10 +2,10 @@
 # Single-image inference for the standalone pretrained docTR `crnn_vgg16_bn` model.
 #
 # Usage:
-#   python -m CRNN_VGG16_BN.inference <image_path> [--device cpu|cuda] [--no-split] [--confidence] [--json]
+#   python -m OCR.crnn_vgg16_bn.inference <image_path> [--device cpu|cuda] [--no-split] [--confidence] [--json]
 #
 # Example:
-#   python -m CRNN_VGG16_BN.inference b-mod_lines/lines/000107da14ad9242de30c504a45f7750.jpg_rec_l0000.jpg
+#   python -m OCR.crnn_vgg16_bn.inference b-mod_lines/lines/000107da14ad9242de30c504a45f7750.jpg_rec_l0000.jpg
 #
 # Output: the recognized character sequence printed to stdout (plain by default;
 # with --confidence appends the confidence; with --json prints a JSON object).
